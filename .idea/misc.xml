@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_choose2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_data.xml" value="0.2" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_declaration2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_education2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_jobexp2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_main.xml" value="0.18443002780352177" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_personal2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_preview2.xml" value="0.2" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_projectdtl2.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_refrence2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_temp1design2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_temp2design2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_temp3design2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/activity_template2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/a/AndroidStudioProjects/Resumemaker2/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

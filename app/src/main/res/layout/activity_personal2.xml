@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersonalActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/teal_700">
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="10dp"
+            android:text="Personal Details"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/next4_btn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next">
+
+        </ImageView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/girl">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skills  : "
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/skill1_edt"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content">
+
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/plus1_img"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/add">
+
+                    </ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/skill2_edt"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"></EditText>
+
+                    <ImageView
+                        android:id="@+id/plus2_img"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/add"
+                        android:visibility="gone"></ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/skill3_edt"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"></EditText>
+
+                    <ImageView
+                        android:id="@+id/plus3_img"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/add"
+                        android:visibility="gone"></ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/skill4_edt"
+                        android:layout_width="325dp"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/plus4_img"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/add"
+                        android:visibility="gone">
+
+
+                    </ImageView>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/skill5_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+
+                </EditText>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age  : "
+                android:textColor="@color/black"
+                android:textSize="18dp">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/seek_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="16dp">
+
+                </TextView>
+
+                <SeekBar
+                    android:id="@+id/seek"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </SeekBar>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marital Status  : "
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/marital_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nationality  : "
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/nationality_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Language Known  :"
+                    android:textSize="18dp"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Gujarati(%)    : "
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/seek1_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="16dp">
+
+                    </TextView>
+
+                    <SeekBar
+                        android:id="@+id/seek1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </SeekBar>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="English(%)    : "
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/seek2_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="16dp">
+
+                    </TextView>
+
+                    <SeekBar
+                        android:id="@+id/seek2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </SeekBar>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="Hindi(%)    : "
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/seek3_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="16dp">
+
+                    </TextView>
+
+                    <SeekBar
+                        android:id="@+id/seek3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </SeekBar>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Gender    : "
+                android:textColor="@color/black"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <RadioGroup
+                android:id="@+id/gender_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp">
+
+                <RadioButton
+                    android:id="@+id/male_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="@color/black"
+                    android:textSize="16dp">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/female_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="@color/black"
+                    android:textSize="16dp">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
